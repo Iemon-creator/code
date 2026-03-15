@@ -4,11 +4,6 @@ class Mathconst {
       id: 'mathconstants',
       name: 'Mathematical Constants',
       blocks: [
-       {
-          opcode: 'hello',
-          blockType: Scratch.BlockType.REPORTER,
-          text: 'Hello!'
-        },
         {
           blockType: Scratch.BlockType.XML,
           xml: '<block type="mathconstants_menu_constants"/>'
