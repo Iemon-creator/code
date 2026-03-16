@@ -11,33 +11,37 @@ class Mathconst {
       ],
       menus: {
         constants: {
-
-          acceptReporters: true, // To make the block round
-
+          acceptReporters: true,
           items: [
             {
-              text: 'pi', value: String(Math.PI)
+              text: 'π', value: String(Math.PI)
             },
             {
-              text: 'tau', value: '6.283185307179586'
+              text: 'τ', value: '6.283185307179586'
             },
             {
-              text: "euler's number", value: String(Math.E)
+              text: "e", value: String(Math.E)
             },
             {
-              text: 'golden ratio', value: '1.618033988749895'
+              text: 'φ', value: '1.618033988749895'
             },
             {
-              text: 'supergolden ratio', value: '1.465571231876768'
+              text: 'ln 2', value: String(Math.LN2)
             },
             {
-              text: "gamma constant", value: '0.5772156649015329'
+              text: 'ln 10', value: String(Math.LN10)
             },
             {
-              text: 'omega constant', value: '0.5671432904097838'
+              text: 'Ω', value: '0.5671432904097838'
             },
             {
-              text: 'universal parabolic constant', value: '2.295587149392638'
+              text: "γ", value: '0.5772156649015329'
+            },
+            {
+              text: 'Ω', value: '0.5671432904097838'
+            },
+            {
+              text: 'P', value: '2.295587149392638'
             }
           ]
         }
